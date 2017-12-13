@@ -31,3 +31,8 @@ docker rm -f $(docker ps -a -q)
 docker system prune
 docker container prune
 ```
+
+* Clean up docker resouces
+```
+docker pull blah.dkr.ecr.us-east-1.amazonaws.com/api:develop
+```
