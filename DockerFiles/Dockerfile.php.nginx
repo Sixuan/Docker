@@ -1,0 +1,6 @@
+FROM richarvey/nginx-php-fpm:latest
+
+# Some custom logic
+
+EXPOSE 80
+
