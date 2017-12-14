@@ -32,7 +32,7 @@ docker system prune
 docker container prune
 ```
 
-* Clean up docker resouces
+* Pull the latest version of an image
 ```
 docker pull blah.dkr.ecr.us-east-1.amazonaws.com/api:develop
 ```
